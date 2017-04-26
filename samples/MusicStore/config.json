@@ -3,6 +3,9 @@
     "SiteTitle": "ASP.NET MVC Music Store",
     "CacheDbResults": true
   },
+  "ApplicationInsights": {
+    "InstrumentationKey": "37675233-bc7c-43db-809b-719c73891043"
+  },
   "DefaultAdminUsername": "Administrator@test.com",
   "DefaultAdminPassword": "YouShouldChangeThisPassword1!",
   "Data": {

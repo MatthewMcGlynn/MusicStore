@@ -36,6 +36,9 @@ namespace MusicStore
         {
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
+            services.AddApplicationInsightsTelemetry(options =>
+                    options.InstrumentationKey = "37675233-bc7c-43db-809b-719c73891043");
+
             // Add EF services to the services container
             if (_platform.UseInMemoryStore)
             {
